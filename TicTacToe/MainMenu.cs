@@ -24,20 +24,16 @@ namespace TicTacToe
 
         private void btnPvP_Click(object sender, EventArgs e)
         {
-            frmPvP f1 = new frmPvP();
-            f1.ShowDialog();
-        }
-
-        private void btnPvPOnline_Click(object sender, EventArgs e)
-        {
-            
+            //against other player
+            frmPvP form_1 = new frmPvP(false);
+            form_1.ShowDialog();
         }
 
         private void btnSP_Click(object sender, EventArgs e)
         {
-            int gameType = 1;
-            GameEngine Engine = new GameEngine();
-            Engine.playGame(gameType);
+            //againstComputer
+            frmPvP form_1 = new frmPvP(true);
+            form_1.ShowDialog();
         }
 
         private void btnOptions_Click(object sender, EventArgs e)

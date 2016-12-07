@@ -60,7 +60,7 @@
             this.btnOptions.Name = "btnOptions";
             this.btnOptions.Size = new System.Drawing.Size(184, 23);
             this.btnOptions.TabIndex = 4;
-            this.btnOptions.Text = "Opcje";
+            this.btnOptions.Text = "O grze";
             this.btnOptions.UseVisualStyleBackColor = true;
             this.btnOptions.Click += new System.EventHandler(this.btnOptions_Click);
             // 
